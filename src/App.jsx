@@ -11,20 +11,20 @@ export default () => (
 
         <h1>Fundamentos React (Arrow)</h1>
         <div className="Cards">
-            <Card titulo="#04 - Desafio Aleatório">
+            <Card titulo="#04 - Desafio Aleatório" color="#FA6900">
                 <Aleatorio valorminimo={1} valormaximo={60} />
             </Card>
-            <Card titulo="#03 - Framento">
+            <Card titulo="#03 - Framento" color="#E94C6F">
                 <Fragmento />
             </Card>       
-            <Card titulo="#02 - ComParametro">
+            <Card titulo="#02 - ComParametro" color="#E8B71A"> 
                 <ComParametro
                     titulo="Situação do aluno"
                     aluno="Pedro Silva"
                     nota={9.3}
                 />
             </Card>       
-            <Card titulo="#01 - Primeiro Componente">
+            <Card titulo="#01 - Primeiro Componente" color="#588C73">
                 <Primeiro></Primeiro>
             </Card>                   
         </div>
